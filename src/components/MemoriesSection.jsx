@@ -41,7 +41,6 @@ function MemoriesSection({ memories, relationshipStart }) {
             </div>
 
             <div className="memory-card__content">
-              <span className="memory-card__date">{memory.date}</span>
               <h3>{memory.title}</h3>
               <p>{memory.description}</p>
             </div>

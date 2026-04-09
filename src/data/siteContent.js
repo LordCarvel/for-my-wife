@@ -6,7 +6,7 @@ const officialFirstDate = '2025-07-20T20:00:00'
 const pierDate = '2025-10-19T22:00:00'
 const cinemaDate = '2025-12-24T20:00:00'
 const robberyDate = '2026-03-03T00:00:00'
-const datingAskDate = '2026-04-07T00:00:00'
+const datingAskDate = '2026-03-07T00:00:00'
 const birthdayDate = '2026-04-09T00:00:00'
 
 export const siteContent = {
@@ -51,9 +51,9 @@ export const siteContent = {
         text: 'E no final eu paro de brincar e falo do jeito mais sincero possível.',
       },
     ],
-    sideDateLabel: 'Essa semana é nossa',
+    sideDateLabel: 'Duas datas que eu não esqueço',
     sideDateText:
-      'No dia 7 de abril eu te pedi em namoro. No dia 9 de abril é o seu aniversário. Então essa surpresa tinha que existir, porque eu não ia deixar essas datas passarem em branco.',
+      'No dia 7 de março eu te pedi em namoro. E no dia 9 de abril é o seu aniversário. Então eu precisava fazer isso do jeito certo.',
     sideNote:
       'E sim, eu deixei tudo fácil de editar porque eu me conheço e sei que ainda vou querer mexer em alguma coisa.',
   },
@@ -262,7 +262,7 @@ export const siteContent = {
           'Foi um dia pesado e impossível de esquecer. Não é uma lembrança leve, mas é uma data que mudou muita coisa em nós e em mim.',
       },
       {
-        date: '7 de abril de 2026',
+        date: '7 de março de 2026',
         text:
           'Foi o dia em que eu te pedi em namoro. Não tenho foto desse momento aqui, mas sinceramente nem preciso. Eu lembro dele direito.',
       },
@@ -284,10 +284,10 @@ export const siteContent = {
     ],
   },
   finalLetter: {
-    badge: '7 de abril + 9 de abril',
+    badge: '7 de março + 9 de abril',
     title: 'Feliz aniversário, Emily \u{2764}\u{FE0F}',
     subtitle:
-      'E feliz por tudo o que essa semana significa pra nós dois. Eu te pedi em namoro no dia 7 e, dois dias depois, é o seu aniversário. Abril resolveu caprichar comigo.',
+      'E feliz por tudo o que esse tempo significa pra nós dois. Eu te pedi em namoro no dia 7 de março, e hoje, 9 de abril, é o seu aniversário.',
     letterTitle: 'Agora falando sério',
     metaCards: [
       {
@@ -307,7 +307,7 @@ export const siteContent = {
       `Emily, eu pensei em como escrever isso sem parecer frase pronta demais, porque você sabe que quando fica artificial eu mesmo implico. Então eu resolvi fazer do jeito certo: sendo eu.`,
       `Desde aquele começo, lá em julho, passando pelas noites que foram ficando nossas, pelo pier, pelo cinema de 24 de dezembro e por tudo o que veio depois, você foi ocupando um espaço muito grande em mim. Não foi de uma vez só. Foi aos poucos. E talvez por isso tenha ficado tão forte.`,
       `Também teve dia difícil no meio do caminho. O 3 de março de 2026 mudou muita coisa dentro da gente e eu sei que certas datas não marcam de um jeito bonito. Mesmo assim, aquilo me mostrou ainda mais o quanto eu queria estar do teu lado, cuidar de você e seguir com você.`,
-      `Aí veio o dia 7 de abril, quando eu te pedi em namoro, e eu fiquei com aquela sensação muito boa de estar fazendo exatamente o que eu queria fazer. E agora vem o dia 9, o seu aniversário, que é mais um motivo enorme pra eu agradecer por você existir e por eu poder viver isso contigo.`,
+      `Aí veio o dia 7 de março, quando eu te pedi em namoro, e eu fiquei com aquela sensação muito boa de estar fazendo exatamente o que eu queria fazer. E agora chegou 9 de abril, o seu aniversário, que é mais um motivo enorme pra eu agradecer por você existir e por eu poder viver isso contigo.`,
       `Eu amo você de verdade, Emily. Amo seu jeito, amo nossa conexão, amo até as nossas implicâncias bobas. E se eu pudesse te desejar uma coisa hoje, seria que você nunca esquecesse o quanto é importante pra mim. Eu, Vinicius, sou muito feliz por ter você na minha vida.`,
     ],
     buttonText: 'Tem mais uma coisinha...',
