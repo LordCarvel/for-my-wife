@@ -1,5 +1,6 @@
 const partnerName = 'Emily'
 const authorName = 'Vinicius'
+const withBase = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`
 const relationshipStart = '2025-07-17T00:00:00'
 const officialFirstDate = '2025-07-20T20:00:00'
 const pierDate = '2025-10-19T22:00:00'
@@ -62,7 +63,7 @@ export const siteContent = {
       'Eu já deixei tudo apontado. Se o arquivo estiver na pasta certa, é só dar play.',
     fallbackMessage:
       'Se não tocar, coloca o arquivo em public/audio/melhor-que-ontem.mp3.',
-    src: '/audio/melhor-que-ontem.mp3',
+    src: withBase('/audio/melhor-que-ontem.mp3'),
   },
   quiz: {
     eyebrow: 'Antes da parte séria',
@@ -223,35 +224,35 @@ export const siteContent = {
         date: '17 de julho de 2025',
         description:
           'Eu gosto dessa data porque, pra mim, foi quando a minha vida começou a sair do eixo do jeito certo. Ainda não era tudo oficial, mas já era importante demais.',
-        image: '/photos/memory-1.jpg',
+        image: withBase('/photos/memory-1.jpg'),
         alt: 'Foto representando o começo da história entre Vinicius e Emily.',
       },
       {
-        title: 'Nosso primeiro encontro oficial',
+        title: 'As mensagens que viraram parte do meu dia',
         date: '20 de julho de 2025',
         description:
-          'A primeira vez que a gente saiu à noite de verdade. E sinceramente? Depois desse dia ficou difícil fingir que você era só mais uma pessoa na minha vida.',
-        image: '/photos/memory-2.jpg',
-        fallbackImage: '/photos/memory-2.svg',
-        alt: 'Foto representando o primeiro encontro oficial do casal.',
+          'Essa memória é sobre as mensagens. Sobre quando falar com você foi deixando de ser um detalhe e virou uma das partes mais importantes do meu dia.',
+        image: withBase('/photos/memory-2.jpg'),
+        fallbackImage: withBase('/photos/memory-2.svg'),
+        alt: 'Foto representando as mensagens entre Vinicius e Emily.',
       },
       {
-        title: 'O começo das loucuras no pier',
+        title: 'Um momento bobo nosso que eu gosto muito',
         date: '19 de outubro de 2025',
         description:
-          'Tem datas que são marcadas pela importância, e tem datas que são marcadas porque a gente olha e pensa: foi aqui que a nossa cabeça claramente já não batia muito bem. Eu gosto muito dessa.',
-        image: '/photos/memory-3.jpg',
-        fallbackImage: '/photos/memory-3.svg',
-        alt: 'Foto representando a noite no pier.',
+          'Essa aqui é mais simples, mais leve e talvez por isso seja tão boa. É sobre nós dois sendo bobos juntos, do jeito que eu gosto e que só faz sentido porque é com você.',
+        image: withBase('/photos/memory-3.jpg'),
+        fallbackImage: withBase('/photos/memory-3.svg'),
+        alt: 'Foto representando Vinicius e Emily em um momento bobo juntos.',
       },
       {
-        title: 'Cinema em pleno 24 de dezembro',
+        title: 'Tudo o que eu ainda quero viver com você',
         date: '24 de dezembro de 2025',
         description:
-          'A primeira vez que a gente saiu como casal pra um cinema. Não sei se foi o plano mais convencional do mundo, mas combinou bastante com a gente.',
-        image: '/photos/memory-4.jpg',
-        fallbackImage: '/photos/memory-4.svg',
-        alt: 'Foto representando o primeiro cinema como casal.',
+          'Essa memória é mais sobre o futuro do que sobre um dia específico. Sobre o tanto de coisa que eu ainda imagino vivendo com você e o quanto isso me faz bem.',
+        image: withBase('/photos/memory-4.jpg'),
+        fallbackImage: withBase('/photos/memory-4.svg'),
+        alt: 'Foto representando o futuro de Vinicius e Emily juntos.',
       },
     ],
     extraMoments: [
