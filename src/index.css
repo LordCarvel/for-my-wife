@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-background: #fff6f8;
+  --color-surface: rgba(255, 255, 255, 0.82);
+  --color-surface-strong: #fffafc;
+  --color-berry: #b8587c;
+  --color-berry-soft: #f4b8cc;
+  --color-lilac: #e7d7ff;
+  --color-gold: #f1d8ac;
+  --color-gold-deep: #c69047;
+  --color-text: #4f3341;
+  --color-text-soft: #7f6170;
+  --font-body: 'Manrope', 'Segoe UI', sans-serif;
+  --font-heading: 'Cormorant Garamond', 'Georgia', serif;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(255, 226, 235, 0.9), transparent 34%),
+    radial-gradient(circle at 85% 10%, rgba(231, 215, 255, 0.76), transparent 28%),
+    linear-gradient(180deg, #fff8fb, #fff1f5 46%, #fff8fb);
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--font-body);
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--color-text);
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.65;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(184, 88, 124, 0.22);
+}
+
+#root {
+  min-height: 100vh;
+}
